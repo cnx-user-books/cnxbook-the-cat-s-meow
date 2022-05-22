@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>CSLS Workshop on Quantum Computation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>00d90a74-1ba2-4711-8cce-7c4c178a0351</md:uuid>
+</metadata>
+
+  <content>
+
+    <section id="overview">
+      <title>
+        Workshop Overview
+      </title>
+
+      <para id="abstract">
+
+        Quantum computation uses quantum mechanical phenomena to perform
+        operations on data measured by qubits. It is part of quantum
+        information processing, which has the potential to revolutionize our
+        methods of securing, processing, storing, retrieving, transmitting and
+        displaying information. A quantum computer can implement new
+        algorithms, to perform e.g. rapid integer factorization, thereby
+        threatening current cryptosystems, and quicker database
+        searches. Practical difficulties have limited us to seven qubit
+        computers so far, but the possibilities of this emerging technology
+        have led to many centers, learned and popular articles, and even the
+        movie "Timeline". In this workshop, three experts in the theoretical,
+        experimental, and engineering aspects of quantum computation will take
+        us from basics to cutting-edge.
+
+      </para>
+
+      <list id="talks">
+
+        <item>
+          Go to the talk on
+          <link target-id="cleve_title">
+            Quantum Information, Computation, and Communication</link>
+          (by Prof. Richard Cleve)
+        </item>
+      
+        <item>
+          Go to the talk on
+          <link target-id="divincenzo_title">
+            Prospects for Real Quantum Information Processing Devices in the
+            Laboratory</link>
+          (by Dr. David DiVincenzo)
+        </item>
+  
+        <item>
+          Go to the talk on
+          <link target-id="lloyd_title">
+            The Future of Quantum Information Processing:
+            How Big, How Fast, How Powerful?</link>
+            (by Prof. Seth Lloyd)
+        </item>
+
+      </list>
+
+      <para id="remark">
+        Remark: This workshop was held on February 10, 2005 as part of the
+        <link document="col10277">
+          Computational Sciences Lecture Series (CSLS)</link>
+        at the University of Wisconsin-Madison.
+      </para>
+
+    </section>
+
+    <section id="cleve_title">
+
+      <title>
+        Quantum Information, Computation, and Communication
+      </title>
+
+      <para id="cleve_affiliation">
+        By
+        <link url="http://www.cs.uwaterloo.ca/research/individual/cleve.shtml">
+          Prof. Richard Cleve</link>
+          (University of Waterloo,
+           Canada)
+      </para>
+
+      <para id="cleve_media">
+
+        (Slides are not available)
+        |
+        <link url="mms://real.cae.wisc.edu/ece/CSLS/CSLS-S05_Cleve.wmv">
+          Video [WMV]</link>
+
+      </para>
+
+      <para id="cleve_abstract">
+
+        ABSTRACT: A quantum computer is an information processing device that
+        harnesses the strange power of quantum mechanics: it can exist in
+        several states simultaneously and its computation paths can interfere
+        with each other. Following a brief introduction to quantum
+        information, the talk will review developments in quantum algorithms
+        and various notions of communication with quantum information.  
+
+      </para>
+
+    </section>
+
+    <section id="divincenzo_title">
+
+      <title>
+        Prospects for Real Quantum Information Processing Devices in the
+        Laboratory
+      </title>
+
+      <para id="divincenzo_affiliation">
+        By
+        Dr. David DiVincenzo
+        (IBM Watson Research Center,
+         USA)
+      </para>
+
+      <para id="divincenzo_media">
+
+        <link resource="csls12_divincenzo_slides.pdf">
+          Slides of talk [PDF]</link>
+        |
+        <link url="mms://real.cae.wisc.edu/ece/CSLS/CSLS-S05_DiVincenzo.wmv">
+          Video [WMV]</link>
+
+      </para>
+
+      <para id="divincenzo_abstract">   
+
+        ABSTRACT: Some very hard things have to happen in the laboratory to
+        make even rudimentary quantum information processing a reality. I will
+        give a report "from the trenches" to give some idea of how you start
+        from scratch -- in a state of the art solid state physics lab -- and
+        try to make a working qubit. I will also give a point of view on
+        progress on other fronts where things seem to be going better, in
+        particular in the atomic physics lab.
+        
+
+      </para>
+
+    </section>
+
+    <section id="lloyd_title">
+
+      <title>
+        The Future of Quantum Information Processing:
+        How Big, How Fast, How Powerful?
+      </title>
+
+      <para id="lloyd_affiliation">
+        By
+        <link url="http://www-me.mit.edu/people/personal/slloyd.htm">
+          Prof. Seth Lloyd</link>
+        (MIT, Cambridge, Massachusetts,
+         USA)
+      </para>
+
+      <para id="lloyd_media">
+
+        (Slides are not available)
+        |
+        <link url="mms://real.cae.wisc.edu/ece/CSLS/CSLS-S05_Lloyd.wmv">
+          Video [WMV]
+        </link>
+
+      </para>
+
+      <para id="lloyd_abstract">
+
+        ABSTRACT: Existing quantum computers and quantum communication systems
+        operate at the fundamental performance limits posed by the laws of
+        physics. This talk reviews the physical limits to quantum information
+        processing, and explores the future of the field.
+
+      </para>
+
+    </section>
+
+  </content>
+  
+</document>

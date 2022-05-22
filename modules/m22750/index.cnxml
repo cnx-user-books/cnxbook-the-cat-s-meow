@@ -1,0 +1,210 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Boo-ya</title>
+  <metadata>
+  <md:content-id>m22750</md:content-id><md:title>Boo-ya</md:title>
+  <md:abstract>A brief outline of the theory behind a Superconducting Quantum Interference Device of SQUID</md:abstract>
+  <md:uuid>19b9a33f-478c-46bd-98dc-d9c23c79f836</md:uuid>
+</metadata>
+
+<content>
+    <section id="id2773776">
+      <title>Introduction</title>
+      <para id="id2317077">One of the most sensitive forms of magnetometry is SQUID magnetometry. This uses technique uses a combination of superconducting materials and Josephson junctions to measure magnetic fields with resolutions up to ~10<sup>-14</sup> kG or greater. In the proceeding pages we will describe how a SQUID actually works. </para>
+
+    </section>
+
+      <section id="id1165225477591">
+        <title>Electron-pair waves </title>
+        <para id="id2012839">In superconductors the resistanceless current is carried by pairs of electrons, known as Cooper Pairs. A Cooper Pair is a pair of electrons. Each electron has a quantized wavelength. With a Cooper pair each electrons wave couples with its opposite number over a large distances. This phenomenon is a result of the very low temperatures at which many materials will superconduct. </para>
+        
+        <para id="id4486576">What exactly is superconductance? When a material is at very low temperatures, its crystal lattice behaves differently than when it higher temperatures. Usually at higher temperatures a material will have large vibrations called in the crystal lattice. These vibrations scatter electrons as they pass through this lattice (<link target-id="id1165225323901"/>), and this is the basis for bad conductance. </para>
+        
+        <figure id="id1165225323901"><media id="id1165225323901_media" alt="">
+		<image mime-type="image/gif" src="../../media/thermal scat.gif" id="id1165225323901__onlineimage" width="484" print-width="4in"/>
+	</media>
+	<caption>Schematic representation of the scattering of electrons as they pass through a vibrating lattice. </caption></figure>
+        <para id="id2683899">With a superconductor the material is designed to have very small vibrations, these vibrations are lessened even more by cooling the material to extremely low temperatures. With no vibrations there is no scattering of the electrons and this allows the material to superconduct. </para>
+        <para id="id2787097">The origin of a Cooper pair is that as the electron passes through a crystal lattice at superconducting temperatures it negative charge pulls on the positive charge of the nuclei in the lattice through coulombic interactions producing a ripple. An electron traveling in the opposite direction is attracted by this ripple. This is the origin of the coupling in a Cooper pair (<link target-id="id1165229856343"/>).</para>
+        <figure id="id1165229856343"><media id="id1165229856343_media" alt="">
+		<image mime-type="image/gif" src="../../media/cooper pair.gif" id="id1165229856343__onlineimage" height="205" width="631" print-width="4in"/>
+	</media>
+	<caption>Schematic representation of the Cooper pair coupling model. </caption></figure>
+        <para id="id2708643">A passing electron attracts the lattice, causing a slight ripple toward its path. Another electron passing in the opposite direction is attracted to that displacement (<link target-id="id5820304"/>).</para>
+        <figure id="id5820304"><media id="id5820304_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics3.png" id="id5820304__onlineimage" height="149" width="641" print-width="4in"/>
+	</media>
+	<caption>Schematic representation of Cooper pair coupling</caption></figure>
+        <para id="id2281869">Due to the coupling and the fact that for each pair there is two spin states (<link target-id="id2670589"/>). </para>
+        <figure id="id2670589"><media id="id2670589_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics4.png" id="id2670589__onlineimage" width="500" print-width="4in"/>
+	</media>
+	<caption>Schematic representation of the condensation of the wavelengths of a Cooper pairs</caption></figure>
+        <para id="id1165229942788">Each pair can be treated as a single particle with a whole spin, not half a spin such as is usually the case with electrons. This is important, as an electron which is classed in a group of matter called Fermions are governed by the Fermi exclusion principle which states that anything with a spin of one half cannot occupy the same space as something with the same spin of one half. This turns the electron means that a Cooper pair is in fact a Boson the opposite of a Fermion and this allows the Coopers pairs to condensate into one wave packet. Each Coopers pair has a mass and charge twice that of a single electron, whose velocity is that of the center of mass of the pair. This coupling can only happen in extremely cold conditions as thermal vibrations become greater than the force that an electron can exert on a lattice. And thus scattering occurs.</para>
+        
+        <para id="id2565794">Each pair can be represented by a wavefunction of the form</para>
+
+        <para id="eip-379"><media id="id1165232895337_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics5.png" id="id1165232895337__onlineimage" height="22" width="103"/>
+            </media>
+</para>
+
+
+
+        <para id="id4888378">where <emphasis effect="italics">P</emphasis> is the net momentum of the pair whose center of mass is at <emphasis effect="italics">r</emphasis>. However, all the Cooper pairs in a superconductor can be described by a single wavefunction yet again due to the fact that the electrons are in a Coopers pair state and are thus Bosons in the absence of a current because all the pairs have the same phase - they are said to be "phase coherent" </para>
+        <para id="eip-949"><media id="id2698604_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics6.png" id="id2698604__onlineimage" height="22" width="102"/>
+          </media>
+</para>
+
+
+        <para id="id4276889">This electron-pair wave retains its phase coherence over long distances, and essentially produces a standing wave over the device circuit. In a SQUID there are two paths which form a circle and are made with the same standing wave (<link target-id="id3335315"/>). The wave is split in two sent off along different paths, and then recombined to record an interference pattern by adding the difference between the two. 
+
+</para>
+        <figure id="id3335315"><media id="id3335315_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics7.png" id="id3335315__onlineimage" width="281" print-width="2.5in"/>
+	</media>
+	<caption>Schematic representation of a standing wave across a SQUID circuit.</caption></figure>
+        
+        <para id="id1165228894897">This allows measurement at any phase differences between the two components, which if there is no interference will be exactly the same, but if there is a difference in their path lengths or in some interaction that the waves encounters such as a magnetic field it will correspond in a phase difference at the end of each path length. </para>
+        <para id="id7228343">A good example to use is of two water waves emanating from the same point. They will stay in phase if they travel the same distance, but will fall out of phase if one of them has to deviate around an obstruction such as a rock. Measuring the phase difference between the two waves then provides information about the obstruction.</para>
+      </section>
+      <section id="id1165229969458">
+        <title>Phase and coherence </title>
+        <para id="id2848365">Another implication of this long range coherence is the ability to calculate phase and amplitude at any point on the wave's path from the knowledge of its phase and amplitude at any single point, combined with its wavelength and frequency. The wavefunction of the electron-pair wave in the above eqn. can be rewritten in the form of a one-dimensional wave as </para>
+        <para id="eip-919"><media id="id1165228914793_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics8.png" id="id1165228914793__onlineimage" height="51" width="152"/>
+          </media>
+</para>
+
+
+
+        <para id="id1165229825963">If we take the wave frequency, <emphasis effect="italics">V</emphasis>, as being related to the kinetic energy of the Cooper pair with a wavelength, <emphasis effect="bold">λ</emphasis>, being related to the momentum of the pair by the relation <emphasis effect="italics">λ = h/p</emphasis> then it is possible to evaluate the phase difference between two points in a current carrying superconductor. </para>
+        <para id="id8338839">If a resistanceless current flows between points X and Y on a superconductor there will be a phase difference between these points that is constant in time.</para>
+      </section>
+      <section id="id4823301">
+        <title>Effect of a magnetic field </title>
+        <para id="id5959660">The parameters of a standing wave are dependent on a current passing through the circuit; they are also strongly affected by an applied magnetic field. In the presence of a magnetic field the momentum, <emphasis effect="italics">p</emphasis>, of a particle with charge <emphasis effect="italics">q</emphasis> in the presence of a magnetic field becomes <emphasis effect="italics">m</emphasis><emphasis effect="italics">V </emphasis><emphasis effect="italics">+ q</emphasis><emphasis effect="italics">A</emphasis> where <emphasis effect="italics">A</emphasis> is the magnetic vector potential. For electron-pairs in an applied field their moment <emphasis effect="italics">P</emphasis> is now equal to <emphasis effect="italics">2mV+2eA</emphasis>. </para>
+        <para id="id7249158">In an applied magnetic field the phase difference between points X and Y is now a combination of that due to the supercurrent and that due to the applied field.</para>
+        
+      </section>
+      <section id="id2572086">
+        <title>The fluxoid </title>
+        <para id="id3839403">One effect of the long range phase coherence is the quantization of magnetic flux in a superconducting ring. This can either be a ring, or a superconductor surrounding a non-superconducting region. Such an arrangement can be seen in <link target-id="id5613342"/> where region <emphasis effect="italics">N</emphasis> has a flux density <emphasis effect="italics">B</emphasis> within it due to supercurrents flowing around it in the superconducting region <emphasis effect="italics">S</emphasis>. 
+
+</para>
+   
+
+          <figure id="id5613342"><media id="id5613342_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Picture 1.jpg" id="id5613342__onlineimage" width="340" print-width="3in"/>
+	</media>
+	<caption>Superconductor enclosing a non-superconducting region.  Adaped from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool. </caption></figure>
+
+        
+        <para id="id2971805">In the closed path XYZ encircling the non-superconducting region there will be a phase difference of the electron-pair wave between any two points, such as X and Y, on the curve due to the field and the circulating current.</para>
+        <para id="id10432676">If the superelectrons are represented by a single wave then at any point on XYZX it can only have one value of phase and amplitude. Due to the long range coherence the phase is single valued also called quantized meaning around the circumference of the ring Δφ must equal 2πn where <emphasis effect="italics">n</emphasis> is any integer. Due to the wave only having a single value the fluxoid can only exist in quantized units. This quantum is termed the fluxon, φ<sub>0</sub>, given by </para>
+        <para id="eip-974"><media id="id6658655_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics9.png" id="id6658655__onlineimage" height="54" width="177"/>
+          </media>
+</para>
+
+
+        
+      </section>
+      <section id="id821308">
+        <title>Josephson tunneling </title>
+        <para id="id5899303">If two superconducting regions are kept totally isolated from each other the phases of the electron-pairs in the two regions will be unrelated. If the two regions are brought together then as they come close electron-pairs will be able to tunnel across the gap and the two electron-pair waves will become coupled. As the separation decreases, the strength of the coupling increases. The tunneling of the electron-pairs across the gap carries with it a superconducting current as predicted by B.D. Josephson and is called "Josephson tunneling" with the junction between the two superconductors called a "Josephson junction" (<link target-id="id5979612"/>). </para>
+        <figure id="id5979612"><media id="id5979612_media" alt="">
+		<image mime-type="image/gif" src="../../media/JJ.gif" id="id5979612__onlineimage" height="225" width="542" print-width="4in"/>
+	</media>
+	<caption>Schematic representation of the tunneling of Cooper pairs across a Josephson junction.</caption></figure>
+        
+        <para id="id5706317">The Josephson tunneling junction is a special case of a more general type of weak link between two superconductors. Other forms include constrictions and point contacts but the general form is of a region between two superconductors which has a much lower critical current and through which a magnetic field can penetrate. </para>
+      </section>
+      <section id="id3331448">
+        <title>Superconducting quantum interference device (SQUID) </title>
+        <para id="id1165229947325">A superconducting quantum interference device (SQUID) uses the properties of electron-pair wave coherence and Josephson Junctions to detect very small magnetic fields. The central element of a SQUID is a ring of superconducting material with one or more weak links called Josephesons Junctions. An example is shown in the below. With weak-links at points W and X whose critical current, <emphasis effect="italics">i</emphasis><emphasis effect="italics"><sub>c</sub></emphasis>, is much less than the critical current of the main ring. This produces a very low current density making the momentum of the electron-pairs small. The wavelength of the electron-pairs is thus very long leading to little difference in phase between any parts of the ring. </para>
+
+
+
+          <figure id="id1165232947933"><media id="id1165232947933_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Picture 4.jpg" id="id1165232947933__onlineimage" width="295" print-width="3in"/>
+	</media>
+	<caption>Superconducting quantum interference device (SQUID) as a simple magnetometer.  Adaped from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool. </caption></figure>
+
+        
+        <para id="id1165229002981">If a magnetic field, <emphasis effect="italics">B</emphasis><emphasis effect="italics">a</emphasis> , is applied perpendicular to the plane of the ring (<link target-id="id2262193"/>), a phase difference is produced in the electron-pair wave along the path XYW and WZX. One of the features of a superconducting loop is that the magnetic flux, Φ, passing through it which is the product of the magnetic field and the area of the loop and is quantized in units of Φ<sub>0</sub> = <emphasis effect="italics">h</emphasis>/ (2<emphasis effect="italics">e</emphasis>), where <emphasis effect="italics">h </emphasis>is Planck’s constant, 2<emphasis effect="italics">e </emphasis>is the charge of the Cooper pair of electrons, and Φ<sub>0</sub> has a value of 2 × 10<sup>–15</sup> tesla m<sup>2</sup>. If there are no obstacles in the loop, then the superconducting current will compensate for the presence of an arbitrary magnetic field so that the total flux through the loop (due to the external field plus the field generated by the current) is a multiple of Φ<sub>0</sub>.</para>
+        <figure id="id2262193"><media id="id2262193_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics11.png" id="id2262193__onlineimage" height="369" width="554" print-width="4in"/>
+	</media>
+	<caption>Schematic representation of a SQUID placed in a magnetic field. </caption></figure>
+        
+        
+        <para id="id5466002">Josephson predicted that a superconducting current can be sustained in the loop, even if its path is interrupted by an insulating barrier or a normal metal. The SQUID has two such barriers or ‘Josephson junctions’. Both junctions introduce the same phase difference when the magnetic flux through the loop is 0, <emphasis effect="italics">Φ</emphasis><sub>0</sub>, 2<emphasis effect="italics">Φ</emphasis><sub>0</sub> and so on, which results in constructive interference, and they introduce opposite phase difference when the flux is <emphasis effect="italics">Φ</emphasis><sub>0</sub>/2, 3<emphasis effect="italics">Φ</emphasis><sub>0</sub>/2 and so on, which leads to destructive interference. This interference causes the critical current density, which is the maximum current that the device can carry without dissipation, to vary. The critical current is so sensitive to the magnetic flux through the superconducting loop that even tiny magnetic moments can be measured. The critical current is usually obtained by measuring the voltage drop across the junction as a function of the total current through the device. Commercial SQUIDs transform the modulation in the critical current to a voltage modulation, which is much easier to measure.</para>
+        <para id="id1165232794710">An applied magnetic field produces a phase change around a ring, which in this case is equal </para>
+        <para id="eip-719"><media id="id3167835_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics12.png" id="id3167835__onlineimage" height="57" width="103"/>
+          </media>
+</para>
+
+
+
+
+        <para id="id5972826">where Φ<sub>a</sub> is the flux produced in the ring by the applied magnetic field. The magnitude of the critical measuring current is dependent upon the critical current of the weak-links and the limit of the phase change around the ring being an integral multiple of <emphasis effect="italics">2</emphasis><emphasis effect="bold">π</emphasis>. For the whole ring to be superconducting the following condition must be met </para>
+        
+        <para id="eip-569"><media id="id4712016_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics13.png" id="id4712016__onlineimage" height="57" width="148"/>
+          </media>
+</para>
+
+
+
+        <para id="id5020364">where α and β are the phase changes produced by currents across the weak-links and 2πΦ<sub>a</sub>/Φ<sub>o</sub> is the phase change due to the applied magnetic field. </para>
+        <para id="id5253371">When the measuring current is applied α and β are no longer equal, although their sum must remain constant. The phase changes can be written as </para>
+        <para id="eip-944"><media id="id1165228655076_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics14.png" id="id1165228655076__onlineimage" height="57" width="130"/>
+          </media>
+</para>
+
+
+
+        <para id="eip-932"><media id="id1165228964673_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics15.png" id="id1165228964673__onlineimage" height="57" width="130"/>
+          </media>
+</para>
+
+
+        <para id="id3095330">where δ is related to the measuring current <emphasis effect="italics">I.</emphasis> Using the relation between current and phase from the above Eqn. and rearranging to eliminate <emphasis effect="italics">i</emphasis> we obtain an expression for <emphasis effect="italics">I,</emphasis></para>
+        <para id="eip-46"><media id="id1165230129397_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics16.png" id="id1165230129397__onlineimage" height="57" width="155"/>
+          </media>
+</para>
+
+
+
+        <para id="id3762675">As sinδ cannot be greater than unity we can obtain the critical measuring current, <emphasis effect="italics">I</emphasis><emphasis effect="italics"><sub>c</sub></emphasis> from the above </para>
+        <para id="eip-661"><media id="id3470729_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics17.png" id="id3470729__onlineimage" height="57" width="118"/>
+          </media>
+</para>
+
+
+
+        <para id="id1165225456507">which gives a periodic dependence on the magnitude of the magnetic field, with a maximum when this field is an integer number of fluxons and a minimum at half integer values as shown in the below figure. </para>
+
+          <figure id="id3718055"><media id="id3718055_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Picture 7.jpg" id="id3718055__onlineimage" width="359" print-width="3.5in"/>
+	</media>
+	<caption>Critical measuring current, <emphasis effect="italics">I</emphasis><emphasis effect="italics"><sub>c</sub></emphasis>, as a function of applied magnetic field.  Adaped from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool. </caption></figure>
+
+        
+      </section>
+
+
+<section id="eip-995"><title>Bibliography</title><list id="eip-852"><item>J. Bland, Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool. </item>
+	<item>J. P. Cleuziou, W. Wernsdorfer, V. Bouchiat,T. Ondarçuhu, and M.
+Monthioux, <emphasis effect="italics">Nature Nanotech.</emphasis>, 2006, <emphasis effect="bold"> 1</emphasis>, 53. </item>
+	<item>W. G. Jenksy, S. S. H. Sadeghiz, and J. P. Wikswo Jr., <emphasis effect="italics">J. Phys. D: Appl. Phys.</emphasis>, 1997, <emphasis effect="bold"> 30</emphasis>, 293.</item>
+	<item>R. L. Fagaly, <emphasis effect="italics">Review of Scientific Instruments</emphasis>, 2006, <emphasis effect="bold"> 77</emphasis>, 101101.</item>
+	<item>Quantum Design, Operating manual for the MPMS, 1999.</item></list></section>
+  </content>
+</document>
